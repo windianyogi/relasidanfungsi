@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Relasi</title>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<style type="text/css">
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 290px;
+  height: 220px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #6EB5C0;
+  color: white;
+  font-size: 14px;
+  padding: 14px 28px;
+}
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: serif;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  .btn-back{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: serif;
+  }
+  .btn-back a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-back:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 610px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  td, th{
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+  }
+  tr:nth-child(even){
+    color: #B7B13B;
+  }
+  p,h2,h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222;
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Relasi</a>
+      <a href="ciri_fungsi1.html">Fungsi</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style= "font-size:15px; class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+      <div id="layer1">
+        <h2 style="color: #6EB5C0;">2. Menyajikan Relasi</h2>
+        <h3>a. Sajian Relasi Berbentuk Diagram Panah</h3>
+        <h3>Contoh 1</h3>
+        <p>Pak Budi mempunyai lima orang anak, yaitu Rizal, Dimas, Candra, Siti, dan Rini. 
+        Masing-masing anak mempunyai kegemaran bermain yang berbeda-beda. Rizal gemar bermain balogo 
+        dan isutan jarat. Dimas gemar bermain begasing. Candra gemar bermain begasing. Sedangkan 
+        Siti dan Rini memiliki kegemaran yang sama, yaitu batewah dan balogo.</p>
+        <table>
+        <tr>
+          <td class="container"><img src="../gambar/balogo.jpg" alt="" class="image"><div class="middle"><div class="text">Balogo</div></div><center><p><b>Gambar 8 Balogo</b></p></center></td>
+          <td class="container"><img src="../gambar/isutan_jarat.jpg" alt="" class="image"><div class="middle"><div class="text">Isutan Jarat</div></div><center><p><b>Gambar 9 Isutan Jarat</b></p></center></td>
+        </tr>
+        <tr>
+          <td class="container"><img src="../gambar/batewah.JPG" alt="" class="image"><div class="middle"><div class="text">Batewah</div></div><center><p><b>Gambar 10 Batewah</b></p></center></td>
+          <td class="container"><img src="../gambar/bagasing.jpg" alt="" class="image"><div class="middle"><div class="text">Bagasing</div></div><center><p><b>Gambar 11 Bagasing</b></p></center></td>
+        </tr>
+      </table>
+      <br>
+        <p>Jika anak-anak Pak Budi dikelompokkan menjadi satu dalam himpunan $A$, maka anggota dari 
+        himpunan $A$ adalah Rizal, Dimas, Candra, Siti, dan Rini. Himpunan $A$ tersebut kita 
+        tuliskan sebagai berikut.</p>
+        <p style="text-align: center; background-color: #33CC99;">$A$ = {Rizal, Dimas, Candra, Siti, Rini}</p>
+        <p>Sedangkan jenis permainan yang digemari anak-anak Pak Budi dapat dikelompokkan dalam himpunan $B$. 
+        Himpunan  $B$ dituliskan sebagai berikut</p>
+        <p style="text-align: center; background-color: #FF9900;">$B$ = {Balogo, Isutan Jarat, Batewah, Bagasing}</p>
+        <p>Terhadap kegemaran anak-anak pak Budi, terdapat hubungan antara himpunan $A$ dan himpunan $B$. 
+        Hubungan tersebut terkait dengan gemar bermain  dari anak-anak pak Budi.</p>
+        <p>Rizal <b>gemar bermain</b> balogo dan isutan jarat</p> 
+        <p>Dimas <b>gemar bermain</b> bagasing </p>
+        <p>Candra <b>gemar bermain</b> bagasing </p>
+        <p>Siti <b>gemar bermain</b> balogo dan batewah</p> 
+        <p>Rini <b>gemar bermain</b> balogo dan batewah</p>
+        <p>Apabila <b>"gemar bermain"</b> kita notasikan dengan diagram panah, pernyataan-pernyataan di atas dapat 
+        digambarkan pada <b>Gambar 12</b>.</p>
+      </div>
+    </td>
+    <td rowspan="2">
+      <div id="layer2">
+        <p>Hubungkan relasi dari <b>Himpunan $A$</b> ke <b>Himpunan $B$</b> sesuai dengan contoh dengan menarik noktah yang disediakan dari himpunan A ke himpunan B!</p>
+        <embed src="../flash/relasi fix.swf" width="600px" height="390px"></embed>
+        <center><p><b>Gambar 12 Relasi Himpunan $A$ ke $B$</b></p></center>
+        <div !mulai spoiler><div style="text-align:center;"><input style="width:150px; background-color:#e6e6e6; color:#000; border:1px solid #ccc; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;" value="Tampilkan Jawaban" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Sembunyikan'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Tampilkan Jawaban'; }" type="button"></div>
+
+        <div style="padding:5px; text-align:justify;"><div style="display: none;"><br><center><img src="../gambar/gambar2.png" width="450px"></center></div></div></div !akhir spoiler>
+        
+      </div>
+    </td>
+  </tr>
+  <tr>
+  <td style="padding-bottom: 20px;">
+    <button class="btn" onclick="window.location.href='relasi6.html';"><img src="../gambar/next.png" width="20px" height="10px" alt=""></button>
+    <button class="btn-back" onclick="window.location.href='relasi4.html';"><img src="../gambar/back.png" width="20px" height="10px" alt=""></button>
+  </td>
+</tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async src="../mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</body>
+</html>

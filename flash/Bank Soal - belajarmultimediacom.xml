@@ -1,0 +1,462 @@
+<test jml="10">
+	<soal >
+		<tanya>Bagian Komputer yang berfungsi untuk Pusat proses adalah</tanya>
+		<pilih_a>Motherboard</pilih_a>
+		<pilih_b>Prosessor</pilih_b>
+		<pilih_c>HeatSink</pilih_c>
+		<pilih_d>Monitor</pilih_d>
+		<jawab>b</jawab>
+	</soal>
+	<soal >
+		<tanya>Dibawah ini alat yang digunakan untuk merakit PC , kecuali:</tanya>
+		<pilih_a>Tang</pilih_a>
+		<pilih_b>Obeng</pilih_b>
+		<pilih_c>Palu</pilih_c>
+		<pilih_d>Gelang Statis</pilih_d>
+		<jawab>c</jawab>
+	</soal>
+	<soal >
+		<tanya>Saat ini Selain tipe AGP, VGA Card memiliki Tipe :</tanya>
+		<pilih_a>ECU</pilih_a>
+		<pilih_b>PCI</pilih_b>
+		<pilih_c>ROM</pilih_c>
+		<pilih_d>PCI-Express</pilih_d>
+		<jawab>d</jawab>
+	</soal>
+	<soal >
+		<tanya>Kerusakan pada Memori/RAM dapat diketahui dengan :</tanya>
+		<pilih_a>Bunyi Alarm motherboard terputus-putus beberapa kali</pilih_a>
+		<pilih_b>Komputer tidak ada respon</pilih_b>
+		<pilih_c>Proses Booting lama</pilih_c>
+		<pilih_d>Tercium bau terbakar</pilih_d>
+		<jawab>a</jawab>
+	</soal>
+	<soal >
+		<tanya>Apa yang dilakukan ketika prosessor rusak/mati:</tanya>
+		<pilih_a>Solder setiap pin kaki prosessor</pilih_a>
+		<pilih_b>Beli lagi</pilih_b>
+		<pilih_c>Bawa ke tukang service komputer</pilih_c>
+		<pilih_d>Ganti baterai CMOS</pilih_d>
+		<jawab>b</jawab>
+	</soal>
+	<soal >
+		<tanya>Fungsi VGA Card adalah</tanya>
+		<pilih_a>Memaikkan music</pilih_a>
+		<pilih_b>Mendinginkan komputer</pilih_b>
+		<pilih_c>Memproses grafis</pilih_c>
+		<pilih_d>Hiasan</pilih_d>
+		<jawab>c</jawab>
+	</soal>
+	<soal >
+		<tanya>Bila panas Perangkat komputer Berlebihan apa yang harus dilakukan</tanya>
+		<pilih_a>Restart komputer</pilih_a>
+		<pilih_b>Mencabut Power kontak</pilih_b>
+		<pilih_c>Menyiram dengan air</pilih_c>
+		<pilih_d>Tambahkan kipas Casing dan bersihkan debu</pilih_d>
+		<jawab>d</jawab>
+	</soal>
+	<soal >
+		<tanya>Apa yang memungkinkan terjadinya komputer tidak stabil:</tanya>
+		<pilih_a>Mati lampu</pilih_a>
+		<pilih_b>Daya listrik rumah Kurang baik</pilih_b>
+		<pilih_c>monitor tidak dipasang</pilih_c>
+		<pilih_d>Tidak tahu</pilih_d>
+		<jawab>b</jawab>
+	</soal>
+	<soal >
+		<tanya>Apa yang anda lakukan jika tercium bau terbakar pada perangkat komputer anda</tanya>
+		<pilih_a>Siram dengan Air</pilih_a>
+		<pilih_b>Restart Komputer</pilih_b>
+		<pilih_c>Minta Tolong Kebakaran</pilih_c>
+		<pilih_d>Cabut power kontak dan periksa setiap komponen</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Cara Paling efektif menaikkan kinerja komputer salah satunya adalah</tanya>
+		<pilih_a>Tambahkan / ganti modul memori yang lebih cepat dan besar</pilih_a>
+		<pilih_b>Restart Komputer</pilih_b>
+		<pilih_c>Beli baru</pilih_c>
+		<pilih_d>Lepas tutup casing</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu jaringan nirkabel?</tanya>
+		<pilih_a>Teknologi jaringan nirkabel sebenarnya terbentang luas mulai dari komunikasi suara sampai dengan jaringan data</pilih_a>
+		<pilih_b>Jaringan Yang berhubungan dengan data dan sharing data</pilih_b>
+		<pilih_c>jaringan lokal area</pilih_c>
+		<pilih_d>Jarinagan yang hanya mengunakan kabel viber optik</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu Fiber Optik?</tanya>
+		<pilih_a>Kabel penghubung jaringan</pilih_a>
+		<pilih_b>Sarana internet</pilih_b>
+		<pilih_c>kabel yang digunakan untuk jaringan lokal</pilih_c>
+		<pilih_d>Fiber optik adalah sebuah kaca murni yang panjang dan tipis serta berdiameter sebesar rambut manusia. Dan dalam pengunaannya beberapa fiber optik dijadikan satu dalam sebuah tempat yang dinamakan kabel optik dan digunakan untuk mengantarkan data digital yang berupa sinar dalam jarak yang sangat jauh</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa saja yang di butuhkan komputer multimedia kecuali;</tanya>
+		<pilih_a>Speaker aktif</pilih_a>
+		<pilih_b>Sound blester</pilih_b>
+		<pilih_c>Vga</pilih_c>
+		<pilih_d>Most optik</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Yang merupakan sistem penggabungan multimedia kecuali;</tanya>
+		<pilih_a>Grafik dan animasi</pilih_a>
+		<pilih_b>Pengkomputeran interaktif</pilih_b>
+		<pilih_c>Pengolahan program perpus</pilih_c>
+		<pilih_d>Penggabungan antara teks audio dan video</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Semua kata dibawah ini benar tentang multimedia tapi pilih satu di antara empat jawaban yang paling benar</tanya>
+		<pilih_a>Panduan belajar</pilih_a>
+		<pilih_b>Cara yang membikin mudah dalam pembelajaran atau efektif</pilih_b>
+		<pilih_c>Memotifasi orang agar lebih giat dalam belajar karena multimedia tidak menyita banyak waktu dan sebaliknya belajar multimedia dapat dilakukan dimana saja dan kapan saja.</pilih_c>
+		<pilih_d>Memudahkan belajar</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Langkah apa yang akan anda lakukan ketika komputer gagal booting</tanya>
+		<pilih_a>Merestart ulang dan mencari penyebab masalah baik dari bios maupun di sistem oprasinya</pilih_a>
+		<pilih_b>Membongkar semua peripheral yang ada</pilih_b>
+		<pilih_c>Buka jumper Motherboard</pilih_c>
+		<pilih_d>Lepas tutup casing</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu DHCP?</tanya>
+		<pilih_a>DHCP merupakan singkatan dari Dynamic Host Configuration Protocol</pilih_a>
+		<pilih_b>Hal yang bersangkutan dan berhubungan dengan dengan jaringan</pilih_b>
+		<pilih_c>Kontroler dalam pembuatan jaringan nirkabel</pilih_c>
+		<pilih_d>Kabel protokol jaringan</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Auto Power Off pada CPU ATX dibawah ini kecuali</tanya>
+		<pilih_a>Menambahkan baris pada file /etc/rc.conf
+apm_enable ”YES”</pilih_a>
+		<pilih_b>Reboot system ,dan coba matikan system dengan :
+      shutdown -p now atau halt -p</pilih_b>
+		<pilih_c>Edit dan menambahkan baris pada file /boot/loader.conf :
+        userconfig_script_load ”YES”
+</pilih_c>
+		<pilih_d>Tekan Power langsung</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu Squid?</tanya>
+		<pilih_a>Proxy server dalam kecepatan tinggi</pilih_a>
+		<pilih_b>I. Squid adalah high-performance proxy caching server untuk web klien, yang sudah mendukung FTP, ghoper, dan HTTP data object</pilih_b>
+		<pilih_c>Seting Aplikasi Web</pilih_c>
+		<pilih_d>Aplikasi jaringan</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>Hal yang benar mengenai manajemen bandwidth di squid menggunakan delay pools kecuali</tanya>
+		<pilih_a>Pertama-tama periksa apakah squid telah berjalan di server dan telah dikonfiguraisi sebagai mesin proxy server</pilih_a>
+		<pilih_b>Biarkan berjalan apa adanya</pilih_b>
+		<pilih_c>Sebelum memulai memanajemen bandwidth di squid, kita jelaskan dulu komponen-komponen manajement bandwidth di squid </pilih_c>
+		<pilih_d>Mengkonfigurasikan proxy server anda untuk membatasi bandwidth download atau incoming traffic</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu virus worm?</tanya>
+		<pilih_a>Virus adalah suatu kode tertentu yagn dibuat dengan suatu metode bahasa pemrograman (umumnya C). kode program ini biasa disebut Kode Jahat/Perusak (Malicious Codes)</pilih_a>
+		<pilih_b>Virus yang di gunakan progrmmer untuk menyusupkan data atau mengambil dan merusak data dengan tujuan tertentu</pilih_b>
+		<pilih_c>Aplikiasi yang dibuat untuk merusak data atau program</pilih_c>
+		<pilih_d>Mebuat sistem operasi menjadi lancar</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Bagaimana Internet bisa diakses lewat jaringan televisi kabel?</tanya>
+		<pilih_a>Menambahkan modem</pilih_a>
+		<pilih_b>Menambahkan rangkaian protokol pada PC</pilih_b>
+		<pilih_c>Cara kerja internet tv kabel internet kabel menggunakan media kabel koaksial sebagai media aksesnya</pilih_c>
+		<pilih_d>Hubungi toko komputer</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa itu PDA?</tanya>
+		<pilih_a>Media penghubung atau telepati</pilih_a>
+		<pilih_b>Sebagai media presentasi</pilih_b>
+		<pilih_c>Alat komunikasi</pilih_c>
+		<pilih_d>“PDA” (Personal Digital Assistant) pertama kali dikenalkan untuk menggantikan organizer konvensional (agenda)</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Selain untuk membuat Web Flash juga berguna untuk</tanya>
+		<pilih_a>Media presentasi</pilih_a>
+		<pilih_b>Membuat animasi yang mengkolaborasikan antara gerak, video dan grafis(tampilan suara serta animasi)</pilih_b>
+		<pilih_c>Membikin video klip</pilih_c>
+		<pilih_d>Semua jawaban salah</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>Definisi yang benar mengenai algoritma adalah?</tanya>
+		<pilih_a>Ditinjau dari asal-usul katanya, kata ‘Algoritma’ mempunyai sejarah yang agak aneh. Orang hanya menemukan kata Algorism yang berarti proses menghitung dengan angka Arab</pilih_a>
+		<pilih_b>Satuan alat untuk menghitung rumusan matematik dengan proses secara benar</pilih_b>
+		<pilih_c>Metode hitung</pilih_c>
+		<pilih_d>Jawaban benar semua</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Apa yang anda ketahui mengenai Modem</tanya>
+		<pilih_a>Tambahan dalam komponen komputer</pilih_a>
+		<pilih_b>Teknologi jaringan</pilih_b>
+		<pilih_c>Komponen komputer</pilih_c>
+		<pilih_d>Modem (Modulator-Demodulator) adalah perangkat yang dewasa ini paling banyak digunakan untuk melakukan koneksi ke internet, khususnya melalui saluran telepon</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>DibawaH ini merupakan apliasi yang berhubungan dengan multimedia, kecuali;</tanya>
+		<pilih_a>Swish</pilih_a>
+		<pilih_b>Flash</pilih_b>
+		<pilih_c>3D max</pilih_c>
+		<pilih_d>Transtool</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Fungsi dari Perakitan PC</tanya>
+		<pilih_a>Memberi pembelajaran bagi masyarakat khususnya pelajar dan orang yang mau belajar tentang komputer</pilih_a>
+		<pilih_b>Membuka pikiran masyarakat tentang bagaimana proses terjadinya Komputer dan memberi pilhan untuk belajar merakit komputer</pilih_b>
+		<pilih_c>Untuk pembelajaran saja</pilih_c>
+		<pilih_d>Semua jawaban salah</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>Fungsi utama Hardisk, kecuali;</tanya>
+		<pilih_a>Untuk menyimpan data dan menjalankan sistem operasi</pilih_a>
+		<pilih_b>Memutar winam</pilih_b>
+		<pilih_c>Menjalankan program</pilih_c>
+		<pilih_d>Semua benar</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Teknik Frame by Frame Animation berguna untuk?</tanya>
+		<pilih_a>Menambahkan fungsi suara</pilih_a>
+		<pilih_b>Membikin gerakan di flash</pilih_b>
+		<pilih_c>Teknik animasi yang disusun dari banyak rangkaian gambar yang berbeda dan hasilnya jika dilihat satu bersatu maka akan terlihat bergerak hasilnya</pilih_c>
+		<pilih_d>Sebagai alat jendela baru</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Singkatan dari WML dalam istilah Web Program adalah</tanya>
+		<pilih_a>Worm mode Language</pilih_a>
+		<pilih_b>Wide mode language</pilih_b>
+		<pilih_c>Wirelss mrkup language</pilih_c>
+		<pilih_d>Web markup language</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Definisi Xml adalah</tanya>
+		<pilih_a>Data yang bersifat untuk mengkonfigurasikan</pilih_a>
+		<pilih_b>Benda mati yang diasumsikan sebagai media penyimpan data yang nantinya menjalankan perintah dari aplikasi dan bersifar data konfigurasi</pilih_b>
+		<pilih_c>Media untuk menjalankan data program</pilih_c>
+		<pilih_d>Aplikasi dalam web dan animasi</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>RAM berguna sebagai</tanya>
+		<pilih_a>Alat untuk menjalankan komputer</pilih_a>
+		<pilih_b>sebagai media penyimpan yang bersifat sementara</pilih_b>
+		<pilih_c>Proses memsukkan data</pilih_c>
+		<pilih_d>Komponen utama komputer</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>Dibawah ini komponen - komponen yang digunakan dalam merakit PC, kecuali</tanya>
+		<pilih_a>Obeng</pilih_a>
+		<pilih_b>Tang jepit</pilih_b>
+		<pilih_c>Solder</pilih_c>
+		<pilih_d>Gelang anti statis</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Aplikasi une Up Utility berguna</tanya>
+		<pilih_a>Mendongkrak kinerja sistem</pilih_a>
+		<pilih_b>Memperlambat jalannya sistem</pilih_b>
+		<pilih_c>Membuka jendela baru di explore</pilih_c>
+		<pilih_d>Menjadikan komputer bertambah kecepatan</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Dibawah ini merupakan jenis prosesor keluaran intel kecuali</tanya>
+		<pilih_a>Duo Core 2,8 Lga 775</pilih_a>
+		<pilih_b>Pentium 478</pilih_b>
+		<pilih_c>Sempron 2500+ (462)</pilih_c>
+		<pilih_d>P3 800</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Komputer generasi pertama adalah;</tanya>
+		<pilih_a>Eniac</pilih_a>
+		<pilih_b>Komputer AMD</pilih_b>
+		<pilih_c>Pentium</pilih_c>
+		<pilih_d>Komputer Hybrid</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Fungsi komputer pertama kali adalah</tanya>
+		<pilih_a>Alat belajar</pilih_a>
+		<pilih_b>Memudahkan dalam presentasi</pilih_b>
+		<pilih_c>Media pembuat multimedia</pilih_c>
+		<pilih_d>Sebagai satuan alat hitung</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Sistem Operasi dibawah ini buatan Microsoft, Kecuali</tanya>
+		<pilih_a>Windows 98</pilih_a>
+		<pilih_b>Windows Server 2003</pilih_b>
+		<pilih_c>Dos</pilih_c>
+		<pilih_d>Ubuntu</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Lisensi Linux bersifat</tanya>
+		<pilih_a>Open source</pilih_a>
+		<pilih_b>Membayar</pilih_b>
+		<pilih_c>Open Code</pilih_c>
+		<pilih_d>Bersama dan membangun</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Open Office buatan dari</tanya>
+		<pilih_a>Macintos</pilih_a>
+		<pilih_b>Microsoft</pilih_b>
+		<pilih_c>Linux</pilih_c>
+		<pilih_d>Benar semua</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Media Pemutar Vilm adalah</tanya>
+		<pilih_a>Hardisk</pilih_a>
+		<pilih_b>Optik Drive</pilih_b>
+		<pilih_c>Ram</pilih_c>
+		<pilih_d>Casing</pilih_d>
+		<jawab>b</jawab>
+	</soal>	
+	<soal >
+		<tanya>Termal Paste berfungsi sebagai</tanya>
+		<pilih_a>Pelicin Prosesor</pilih_a>
+		<pilih_b>Pelapis Hardisk</pilih_b>
+		<pilih_c>Pendingin Prosesor, selain kipas prosesor</pilih_c>
+		<pilih_d>Pendingin vga</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+	<soal >
+		<tanya>Fungsi dari Flopy</tanya>
+		<pilih_a>Tambahan saja</pilih_a>
+		<pilih_b>Fariasi komputer</pilih_b>
+		<pilih_c>Menyimpan vilm</pilih_c>
+		<pilih_d>Media menyimpan dan meng - copy data dari komputer ke disket</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Motherboard tidak mau merespon ketika di tekan tombol power,dibawah ini alasan tepat kecuali</tanya>
+		<pilih_a>Kabel power belum terpasang</pilih_a>
+		<pilih_b>Batray cmos mati</pilih_b>
+		<pilih_c>Bios rusak</pilih_c>
+		<pilih_d>Semua jawaban salah</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Ketika kita naikan kinerja komputer tapi komputer malah error, apa yang harus dilakukan</tanya>
+		<pilih_a>Priksa cmos batray dan lakukan clerr pada jumper bios lalu hidupkan kembali, dan bila perlu sebelumnya tambah daya power supply</pilih_a>
+		<pilih_b>Biarkan dan bawa ke reparasi</pilih_b>
+		<pilih_c>Tambah daya Supply</pilih_c>
+		<pilih_d>Kasih pendingin tambahan</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Ketika Windows error saat proses apa yang harus anda lakukan</tanya>
+		<pilih_a>Restart ulang Komputer</pilih_a>
+		<pilih_b>Tekan kontrol + alt + del secara bersamaan</pilih_b>
+		<pilih_c>Tekan F8 laku masuk safe mode dan kemudian pilh windows normality tunngu beberapa saat jika tidak bisa instal ulang lagi</pilih_c>
+		<pilih_d>Jawaban salah semua</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Dibawah ini merupakan contoh perangkat keras kecuali</tanya>
+		<pilih_a>Hardisk</pilih_a>
+		<pilih_b>Monitor</pilih_b>
+		<pilih_c>Vga (kartu grafis)</pilih_c>
+		<pilih_d>Delphi 7</pilih_d>
+		<jawab>d</jawab>
+	</soal>
+	<soal >
+		<tanya>Sound card berfungsi sebagai</tanya>
+		<pilih_a>Media pengolahan karakter suara</pilih_a>
+		<pilih_b>Penyimpan data</pilih_b>
+		<pilih_c>Memenej data</pilih_c>
+		<pilih_d>Variasi saja</pilih_d>
+		<jawab>a</jawab>
+	</soal>
+	<soal >
+		<tanya>Printer berfungsi sebagai</tanya>
+		<pilih_a>Alat untuk mencetak data yang berupa foto maupun tulisan</pilih_a>
+		<pilih_b>Alat tambahan</pilih_b>
+		<pilih_c>A dan B salah</pilih_c>
+		<pilih_d>Mencetak data saja</pilih_d>
+		<jawab>a</jawab>
+	</soal>
+	<soal >
+		<tanya>Dalam istilah komputer komponen yang berpengaruh dalam menaikkan gambar adalah</tanya>
+		<pilih_a>Motherboard</pilih_a>
+		<pilih_b>Ram</pilih_b>
+		<pilih_c>Vga</pilih_c>
+		<pilih_d>Casing</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>kinerja komputer sangat ditentukan oleh kecepatan, tapi alat apa yang berpengaruh di dalamnya</tanya>
+		<pilih_a>Prosesor</pilih_a>
+		<pilih_b>Hardisk</pilih_b>
+		<pilih_c>Monitor</pilih_c>
+		<pilih_d>Ram (random acess memory)</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Dibawah ini penyebabnya monitor mati karena, semua jawaban benar tapi pilih yang paling benar menurut anda</tanya>
+		<pilih_a>Flas backnya rusak</pilih_a>
+		<pilih_b>Monitor meleduk</pilih_b>
+		<pilih_c>Aisi power mati</pilih_c>
+		<pilih_d>Monitor terkena air hujan</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Scaner berfungsi sebagai</tanya>
+		<pilih_a>Media pengalihan gambar dari asli ke proses digitalisasi</pilih_a>
+		<pilih_b>Mengambil data</pilih_b>
+		<pilih_c>Meng - copy data</pilih_c>
+		<pilih_d>Semua benar</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Kabel power berfungsi sebagai</tanya>
+		<pilih_a>Alat pengantar listrik yang berhubungan dari supply dengan listrik</pilih_a>
+		<pilih_b>Berfungsi menurunkan tegangan arus listrik</pilih_b>
+		<pilih_c>A dan B salah</pilih_c>
+		<pilih_d>Jawaban A, B, C, D salah semua</pilih_d>
+		<jawab>a</jawab>
+	</soal>	
+	<soal >
+		<tanya>Dalam dunia kedokteran komputer berfungsi benar, kecuali</tanya>
+		<pilih_a>Sebagai alat sensor penyakit jantung</pilih_a>
+		<pilih_b>Sebagai alat rekam tubuh atau ronsen</pilih_b>
+		<pilih_c>Mencari dan mendeteksi alat kelamin bayi dalam kandungan</pilih_c>
+		<pilih_d>Semua salah</pilih_d>
+		<jawab>d</jawab>
+	</soal>	
+	<soal >
+		<tanya>Teknologi informasi dewasa ini berkembang sangat pesat, dapat kita lihat fungsinya di masyarakat, yang bukan adalah</tanya>
+		<pilih_a>Sebagai ilmu terapi detak jantung di kedokteran</pilih_a>
+		<pilih_b>Berguna menjadikan penelitian varietas bibit tanaman berdasar program Delphi sebagai pemilih bibit berkualitas utama</pilih_b>
+		<pilih_c>Menjadikan masyarakat misin moral</pilih_c>
+		<pilih_d>Memudahkan dalam belajar membikin tugas belajar dengan jalan pemeriksa lembar jawaban menggunakan matlab</pilih_d>
+		<jawab>c</jawab>
+	</soal>	
+</test>

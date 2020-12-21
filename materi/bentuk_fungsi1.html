@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fungsi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+<script src="../js/highcharts.js"></script>
+<script src="../js/canvasjs.min.js"></script>
+<script>
+  window.onload = function () {
+  
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    title:{
+      text: "Grafik"
+    },
+    axisX: {
+      title : "X",
+      minimum : 0,
+      maximum : 5
+    },
+    axisY:{
+      title : "Y",
+      minimum : 0,
+      maximum : 14
+    },
+    data: [{
+      type: "scatter",
+      toolTipContent: "<span style=\"color:#4F81BC \"></span><b> X:</b> {x} <br/><b> Y:</b></span> {y} ",
+      showInLegend: true,
+      dataPoints: [
+        { x: 1, y: 3 }
+      ]
+    },
+    {
+      type: "scatter",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:#C0504E \"></span><b> X:</b> {x} <br/><b> Y:</b></span> {y} ",
+      dataPoints: [
+        { x: 2, y: 6 }
+      ]
+    },
+    {
+      type: "scatter",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:#C0504E \"></span><b> X:</b> {x} <br/><b> Y:</b></span> {y} ",
+      dataPoints: [
+        { x: 3, y: 9 }
+      ]
+    },
+    {
+      type: "scatter",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:green \"></span><b> X:</b> {x} <br/><b> Y:</b></span> {y} ",
+      dataPoints: [
+        { x: 4, y: 12 }
+      ]
+    }]
+  });
+  chart.render();
+  
+  }
+  </script>
+</head>
+<style type="text/css">
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: serif;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  .btn-back{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: serif;
+  }
+  .btn-back a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-back:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 610px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  td, th{
+    text-align: left;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+  }
+  p,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222;
+  }
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Relasi</a>
+      <a href="ciri_fungsi1.html">Fungsi</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+    <div id="layer1">
+      <h2 style="color: #6EB5C0;">5. Fungsi Linear</h2>
+      <p>Fungsi linear dinyatakan dengan rumus $f(x) = ax + b$ dengan $a$ tidak sama 
+        dengan 0 dan $a$, $b$ &isin; bilangan real.
+        Fungsi linear dapat disajikan dalam bentuk diagram panah, himpunan pasangan berurutan, persamaan fungsi, 
+        tabel, dan grafik. 
+      </p>
+      <h3>Contoh</h3>
+        <p>Diketahui fungsi $f: A &rarr; B$ dengan $A$ = {1, 2, 3, 4} dan $B$ = {3, 6, 9, 12, 15}. 
+          Relasi fungsi dinyatakan dengan <b>"dikali tiga"</b>.
+        </p>
+        <p><b>a. Sajian fungsi $f$ dalam bentuk persamaan fungsi.</b></p>
+        <p>1 <b>dikali tiga</b> 3.</p>
+        <p>2 <b>dikali tiga</b> 6.</p>
+        <p>3 <b>dikali tiga</b> 9.</p>
+        <p>4 <b>dikali tiga</b> 12.</p>
+        <p>Diagram panah fungsi <i>f</i></p>
+        <embed src="../flash/latihan5.swf" type="" width="600px" height="400px">
+        <p><b>b. Sajian fungsi $f$ dalam bentuk himpunan pasangan berurutan.</b></p>
+        <p>$f$ = {(1, <input id="urut" type="text" size="1" maxlength="1">), (2, <input id="urut2" type="text" size="1" maxlength="1">), (3, <input id="urut3" type="text" size="1" maxlength="1">), (4, <input id="urut4" type="text" size="1" maxlength="2">)}</p>
+        <h3 id="jawab"></h3>
+        <button onclick="myFunction2()">Cek</button>
+        <p><b>c. Sajian fungsi $f$ dalam bentuk persamaan fungsi.</b></p>
+        <p>Misalkan $x &isin; A$ dan $y &isin; B$ maka $f : x &rarr; y$.</p>
+        <p>Berdasarkan diagram panah diperoleh :</p>
+        <p>1 &rarr; 3  = 3 x 1</p>
+        <p>2 &rarr; 6  = 3 x 2</p>
+        <p>3 &rarr; 9  = 3 x 3</p>
+        <p>4 &rarr; 12 = 3 x 4</p>
+        <p>&uparrow; &nbsp; &nbsp; &nbsp; &uparrow; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &uparrow;</p>
+        <p>$x$ &nbsp; &nbsp; &nbsp; $y$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $x$</p>
+        <p><b>d. Sajian fungsi $f$ dalam bentuk tabel</b></p>
+        <table border="1">
+          <tr>
+            <td>$x$</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>$y = f(x) = 3x$</td>
+            <td><input type="text" id="tabel" size="1" maxlength="1"></td>
+            <td><input type="text" id="tabel2" size="1" maxlength="1"></td>
+            <td><input type="text" id="tabel3" size="1" maxlength="1"></td>
+            <td><input type="text" id="tabel4" size="1" maxlength="2"></td>
+          </tr>
+          <tr>
+            <td><button type="button" onclick="myFunction3()">Cek</button></td>
+            <td colspan="4" id="jawab2"></td>
+          </tr>
+        </table>  
+        <p><b>e. Sajian fungsi $f$ dalam bentuk grafik</b></p>
+        <p>Sajian fungsi $f$ dalam bentuk grafik bisa dilihat pada <b>Gambar 19</b></p>
+    </div>
+  </td>
+  <td rowspan="2">
+    <div id="layer2">
+        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+        <center><p><b>Gambar 19 Grafik</b></p></center>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td style="padding-bottom: 20px">
+    <button class="btn" onclick="window.location.href='bentuk_fungsi2.html';"><img src="../gambar/next.png" width="20px" height="10px" alt=""></button>
+    <button class="btn-back" onclick="window.location.href='ciri_fungsi3.1.html';"><img src="../gambar/back.png" width="20px" height="10px" alt=""></button>
+  </td>
+</tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+function myFunction2(){
+  var a, b, c, d, text;
+  a = document.getElementById("urut").value;
+  b = document.getElementById("urut2").value;
+  c = document.getElementById("urut3").value;
+  d = document.getElementById("urut4").value;
+  if(a == "3" && b == "6" && c == "9" && d == "12"){
+    text = "Benar";
+  }else{
+    text = "Salah";
+  }
+  document.getElementById("jawab").innerHTML = text;
+}
+function myFunction3(){
+  var a, b, c, d, text;
+  a = document.getElementById("tabel").value;
+  b = document.getElementById("tabel2").value;
+  c = document.getElementById("tabel3").value;
+  d = document.getElementById("tabel4").value;
+  if (a == "3" && b == "6" && c == "9" && d == "12"){
+    text = "Benar";
+  }else{
+    text = "Salah";
+  }
+  document.getElementById("jawab2").innerHTML = text;
+}
+</script>
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async src="../mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Memahami Korespondensi Satu-satu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<style type="text/css">
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: cursive;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  .btn-back{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: cursive;
+  }
+  .btn-back a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-back:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 610px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: cursive;
+  }
+  td, th{
+    text-align: left;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+  }
+  p,h2{
+    font-family: cursive;
+    color: #222;
+  }
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html" class="active">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Memahami Bentuk Penyajian Relasi</a>
+      <a href="ciri_fungsi1.html">Memahami Ciri-ciri Fungsi</a>
+      <a href="bentuk_fungsi1.html">Memahami Bentuk Penyajian Fungsi</a>
+      <a href="korespondensi1.html">Memahami Korespondensi Satu-satu</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+    <div id="layer1">
+      <h2 style="color: #6EB5C0;">Memahami Korespondensi Satu-satu</h2>
+      <p>Agar kalian memahami pengertian tentang korespondensi satu-satu, perhatikan <b>Gambar 3.11</b> di samping. Perhatikan deretan rumah di suatu daerah. Setiap rumah memiliki nomor rumah tertentu yang berbeda dengan nomor rumah di daerah tersebut. Mungkinkah satu rumah memiliki dua nomor rumah? Atau mungkinkah dua rumah memiliki nomor rumah yang sama? Tentu saja jawabannya tidak. Hubungan antara rumah dan nomor rumah merupakan suatu fungsi yang disebut <i>korespondensi satu-satu</i>.</p>
+      <p>Kasus lain yang menggambarkan korespondensi satu-satu sebagai berikut. Lima orang siswa dengan nomor induk sekolah di SMP Ruhas Malang, adalah sebagai berikut.</p>
+      <p>As'ari memiliki nomor induk 219,</p>
+      <p>Tohir memiliki nomor induk 279,</p>
+      <p>Taufiq memiliki nomor induk 292,</p>
+      <p>Erik memiliki nomor induk 258, dan</p>
+      <p>Zainul memiliki nomor induk 224,</p>
+      <p>Jika dimisalkan <i>A</i> himpunan siswa, maka <i>A</i> = {As'ari, Tohir, Taufiq, Erik, Zainul} dan <i>B</i> adalah himpunan angka = {219, 224, 258, 279, 292} maka relasi dari <i>A</i> ke <i>B</i> adalah "memiliki nomor induk" dan relasi dari <i>B</i> ke <i>A</i> adalah "Nama pemilik nomor induk". Bagaimana bentuk diagram panah dari kedua relasi tersebut?</p>
+      <p>Kedua masalah di atas merupakan contoh dari kehidupan nyata yang berkaitan dengan materi korespondensi satu-satu.</p>
+    </div>
+  </td>
+  <td rowspan="2">
+    <div id="layer2">
+      <br><br><br>
+      <center><img src="../gambar/3.12.png" width="535px"></center>
+      <center><p><b>Gambar 3.11</b></p></center>
+      
+    </div>
+  </td>
+</tr>
+<tr>
+  <td style="padding-bottom: 20px">
+    <button class="btn" onclick="window.location.href='korespondensi2.html';">Lanjut</button>
+    <button class="btn-back" onclick="window.location.href='bentuk_fungsi2.html';">Kembali</button>
+  </td>
+</tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

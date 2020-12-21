@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Relasi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+<script src="../js/highcharts.js"></script>
+<script src="../js/canvasjs.min.js"></script>
+<script>
+  window.onload = function () {
+  
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    title:{
+      text: "Makanan yang dibeli siswa"
+    },
+    axisX: {
+      title:"Nama",
+      minimum : 0,
+      maximum : 6
+    },
+    axisY:{
+      title: "Makanan",
+      minimum : 0,
+      maximum : 5
+    },
+    data: [{
+      type: "scatter",
+      toolTipContent: "<span style=\"color:#4F81BC \"><b>{name}</b></span><br/><b> Nama:</b> {x} <br/><b> Makanan:</b></span> {y} ",
+      name: "Diang",
+      showInLegend: true,
+      dataPoints: [
+        { x: 1, y: 1 }
+      ]
+    },
+    {
+      type: "scatter",
+      name: "Galuh",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:#C0504E \"><b>{name}</b></span><br/><b> Nama:</b> {x} <br/><b> Makanan:</b></span> {y} ",
+      dataPoints: [
+        { x: 2, y: 2 }
+      ]
+    },
+    {
+      type: "scatter",
+      name: "Nanang",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:green \"><b>{name}</b></span><br/><b> Nama:</b> {x} <br/><b> Makanan:</b></span> {y} ",
+      dataPoints: [
+        { x: 3, y: 2 }
+      ]
+    },
+    {
+      type: "scatter",
+      name: "Udin",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:skyblue \"><b>{name}</b></span><br/><b> Nama:</b> {x} <br/><b> Makanan:</b></span> {y} ",
+      dataPoints: [
+        { x: 4, y: 3 }
+      ]
+    },
+    {
+      type: "scatter",
+      name: "Utuh",
+      showInLegend: true, 
+      toolTipContent: "<span style=\"color:purple \"><b>{name}</b></span><br/><b> Nama:</b> {x} <br/><b> Makanan:</b></span> {y} ",
+      dataPoints: [
+        { x: 5, y: 4 }
+      ]
+    }]
+  });
+  chart.render();
+  
+  }
+  </script>
+</head>
+<style type="text/css">
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: serif;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  .btn-back{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: serif;
+  }
+  .btn-back a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-back:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 609px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  td, th{
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+    background-color: #6EB5C0;
+  }
+  tr:nth-child(even){
+    color: #222;
+  }
+  p,h2,h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222;
+  }
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Relasi</a>
+      <a href="ciri_fungsi1.html">Fungsi</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+      <div id="layer1">
+        <h2 style="color: #6EB5C0;">2. Menyajikan Relasi</h2>
+        <h3>c. Sajian Relasi Berbentuk Diagram Cartesius</h3>
+        <p>Cara yang ketiga untuk menyatakan relasi antara himpunan $A$ dan $B$ adalah menggunakan diagram Cartesius. 
+          Anggota-anggota himpunan $A$ berada pada sumbu mendatar dan anggota-anggota himpunan $B$ berada 
+          pada sumbu tegak. Setiap pasangan anggota himpunan $A$ yang berelasi dengan anggota himpunan $B$ 
+          dinyatakan dengan titik atau noktah. <b>Gambar 14</b> disamping menunjukkan diagram Cartesius dari 
+          relasi <b>"membeli makanan"</b> dari data  dibawah.</p>
+        <p>Diang <b>membeli</b> soto banjar.</p>
+        <p>Galuh dan Nanang <b>membeli</b> manday.</p>
+        <p>Udin <b>membeli</b> pakasam.</p>
+        <p>Utuh <b>membeli</b> gangan humbut.</p>
+        <p style="background-color: #33CC99">$A$ = {Diang, Galuh, Nanang, Udin, Utuh}, </p> 
+        <p><b>Misal :</b></p>
+        <p><b>x(1)</b> = Diang</p>
+        <p><b>x(2)</b> = Galuh</p>
+        <p><b>x(3)</b> = Nanang</p>
+        <p><b>x(4)</b> = Udin</p>
+        <p><b>x(5)</b> = Utuh</p>
+        <p style="background-color: #FF9900">$B$ = {Soto Banjar, Manday, Pakasam, Gangan Humbut}, </p>
+        <p><b>y(1)</b> = Soto Banjar</p>
+        <p><b>y(2)</b> = Manday</p>
+        <p><b>y(3)</b> = Pakasam</p>
+        <p><b>y(4)</b> = Gangan Humbut</p>
+      </div>
+    </td>
+    <td rowspan="2">
+      <div id="layer2">
+        <br><br><br><br>
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        <center><p><b>Gambar 14 Diagram Cartesius</b></p></center>
+      </div>
+    </td>
+    <tr>
+      <td style="padding-bottom: 20px">
+        <button class="btn" onclick="window.location.href='relasi2.html';"><img src="../gambar/next.png" width="20px" height="10px" alt=""></button>
+        <button class="btn-back" onclick="window.location.href='relasi6.html';"><img src="../gambar/back.png" width="20px" height="10px" alt=""></button>
+      </td>
+    </tr>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async src="../mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</body>
+</html>

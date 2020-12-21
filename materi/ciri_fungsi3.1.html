@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fungsi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<style type="text/css">
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: serif;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  .btn-back{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: serif;
+  }
+  .btn-back a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-back:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 610px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  td, th{
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+  }
+  p,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222;
+  }
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Relasi</a>
+      <a href="ciri_fungsi1.html">Fungsi</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+      <div id="layer1">
+        <h2 style="color: #6EB5C0;">4. Daerah Asal, Daerah Kawan, dan Daerah Hasil Fungsi </h2>
+        <h3><b>a. Fungsi dalam Bentuk Diagram Panah</b></h3>
+        <p>Perhatikan fungsi $f: A &rarr; B$ yang disajikan dalam bentuk diagram panah 
+          pada <b>Gambar 18</b></p>
+        <p>$A$ = {2, 3, 4} disebut daerah asal (domain).</p>
+        <p>$B$ = {16, 4, 9} disebut daeerah kawan (kodomain).</p>
+        <p>Berdasarkan diagram panah diperoleh :</p>
+        <p>Bayangan dari 2 adalah 4 ditulis $f(2) = 4$.</p>
+        <p>Bayangan dari 3 adalah 9 ditulis $f(3) = 9$.</p>
+        <p>Bayangan dari 4 adalah 16 ditulis $f(4) = 16$.</p>
+        <p>{16, 4, 9} disebut daerah hasil atau <i>range.</i></p>
+        <p>Himpunan pasangan berurutan fungsi $f = {(2, 4), (3, 9), (4, 16)}$.</p>
+        <h3><b>b. Fungsi dalam Bentuk $f: x &rarr; f(x)$</b></h3>
+        <p>Jika daerah asal dan daerah kawan tidak didefinisikan, daerah asal dan daerah kawan berupa bilangan
+          real R. Daaerah hasil dari fungsi $f$ {nilai $f(x)$}.
+        </p>
+      </div>
+    </td>
+    <td rowspan="2">
+      <div id="layer2">
+          <p>Arahkan pointer ke fungsi pada <b>Gambar 18</b> di bawah untuk mengetahui istilah umum pada fungsi!</p>
+          <embed src="../flash/fungsi3.swf" width="600" height="400"></embed>
+          <center><p><b>Gambar 18 Domain, Kodomain, dan Range</b></p></center>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding-bottom: 20px">
+      <button class="btn" onclick="window.location.href='bentuk_fungsi1.html';"><img src="../gambar/next.png" width="20px" height="10px" alt=""></button>
+      <button class="btn-back" onclick="window.location.href='ciri_fungsi4.html';"><img src="../gambar/back.png" width="20px" height="10px" alt=""></button>
+    </td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async src="../mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</body>
+</html>

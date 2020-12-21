@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Relasi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<style type="text/css">
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 280px;
+  height: 220px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #6EB5C0;
+  color: white;
+  font-size: 12px;
+  padding: 14px 28px;
+}
+  .btn{
+    background-color: #444;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    font-family: serif;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #6EB5C0;
+    color: white;
+  }
+  div#layer1{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 625px;
+    height: 460px;
+    overflow: auto;
+  }
+  div#layer2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    width: 610px;
+    height: 560px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  td, th{
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+    background-color: #6EB5C0;
+  }
+  tr:nth-child(even){
+    color:#222;
+  }
+  p,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222;
+  }
+</style>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Beranda</a>
+  <a href="../test/pretest.html">Pre-Test</a>
+  <div class="dropdown">
+    <button class="dropbtn">Materi 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="relasi1.html">Relasi</a>
+      <a href="ciri_fungsi1.html">Fungsi</a>
+    </div>
+  </div> 
+  <a href="../test/posttest.html">Post-Test</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <table>
+  <tr>
+    <td>
+    <div id="layer1">
+      <h2 style="color: #6EB5C0;">A. Relasi</h2>
+      <p>Perhatikan <b>Gambar 1-4</b> Diang, Galuh, Nanang, Udin, Utuh sedang membeli makanan di warung makan 
+        khas Banjarmasin. Diang membeli soto banjar, Galuh membeli manday, Nanang membeli manday dan gangan 
+        humbut, Udin membeli pakasam, Utuh membeli manday dan pakasam.</p>
+      <p>Misalkan $A$ = {nama siswa} dan $B$ = {makanan yang dibeli}, hubungan antara himpunan $A$ dan himpunan $B$ 
+        dapat disajikan seperti Tabel berikut.</p>
+      <table border="1">
+        <tr>
+            <th>Himpunan $A$ = {Nama Siswa}</th>
+            <th>Himpunan $B$ = {Makanan yang Dibeli}</th>
+        </tr>
+        <tr>
+          <td>Diang</td>
+          <td>Soto Banjar</td>
+        </tr>
+        <tr>
+          <td>Galuh</td>
+          <td>Manday</td>
+        </tr>
+        <tr>
+          <td>Nanang</td>
+          <td>Manday</td>
+        </tr>
+        <tr>
+          <td>Udin</td>
+          <td>Pakasam</td>
+        </tr>
+        <tr>
+          <td>Utuh</td>
+          <td>Gangan Humbut</td>
+        </tr>
+      </table>
+      <center><p><b>Tabel 1</b></p></center>
+      <p>Dari himpunan $A$ ke himpunan $B$ terdapat hubungan seperti berikut.</p>
+      <p>Diang <b>membeli</b> soto banjar.</p>
+      <p>Galuh dan Nanang <b>membeli</b> manday.</p>
+      <p>Udin <b>membeli</b> pakasam.</p>
+      <p>Utuh <b>membeli</b> gangan humbut.</p>
+      <p>Dari himpunan $B$ ke himpunan $A$ terdapat hubungan seperti berikut.</p>
+      <p>Soto banjar <b>dibeli</b> oleh Diang.</p>
+      <p>Manday <b>dibeli</b> oleh Galuh dan Nanang.</p>
+      <p>Pakasam <b>dibeli</b> oleh Udin.</p>
+      <p>Gangan humbut <b>dibeli</b> oleh Utuh.</p>
+      <p>Dengan demikian, hubungan dari himpunan $A$ ke himpunan $B$ adalah <b>membeli</b>, 
+        sedangkan hubungan dari himpunan $B$ ke himpunan $A$ adalah <b>dibeli</b> merupakan 
+        contoh relasi.</p>
+    </div>
+  </td>
+  <td rowspan="2">
+    <div id="layer2">
+      <table>
+        <tr>
+          <td class="container"><img src="../gambar/soto banjar.jpg" alt="soto" class="image"><div class="middle"><div class="text">Soto Banjar</div></div><center><p><b>Gambar 1 Soto Banjar</b></p></center></td>
+          <td class="container"><img src="../gambar/manday.jpg" alt="manday" class="image"><div class="middle"><div class="text">Manday</div></div><center><p><b>Gambar 2 Manday</b></p></center></td>
+        </tr>
+        <tr>
+          <td class="container"><img src="../gambar/pakasam.JPG" alt="manday" class="image"><div class="middle"><div class="text">Pakasam</div></div><center><p><b>Gambar 3 Pakasam</b></p></center></td>
+          <td class="container"><img src="../gambar/gangan_humbut.jpg" alt="manday" class="image"><div class="middle"><div class="text">Gangan Humbut</div></div><center><p><b>Gambar 4 Gangan Humbut</b></p></center></td>
+        </tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td style="padding-bottom: 20px;">
+    <button class="btn" onclick="window.location.href = 'relasi3.html';"><img src="../gambar/next.png" width="20px" height="10px" alt=""></button>
+  </td>
+</tr>
+</table>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async src="../mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</body>
+</html>
